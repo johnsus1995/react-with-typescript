@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
-import Button from "./components/Button";
-import Container from "./components/Container";
+// import Button from "./components/Button";
+// import Container from "./components/Container";
 import General from "./components/General";
 import Person from "./components/Person";
-import TextInput from "./components/TextInput";
+import User from "./components/state/User";
+// import TextInput from "./components/TextInput";
 
 function App() {
   // const onClick = (event:React.MouseEvent) => {
@@ -22,6 +23,7 @@ function App() {
         <h1>Hi</h1>
       </General>
       <Person names={people}/>
+      <User/>
     </div>
   );
 }
