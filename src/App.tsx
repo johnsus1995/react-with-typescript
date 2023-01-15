@@ -1,6 +1,7 @@
 import React from "react";
 import "./App.css";
 import Button from "./components/Button";
+import Container from "./components/Container";
 import General from "./components/General";
 import TextInput from "./components/TextInput";
 
@@ -14,8 +15,7 @@ function App() {
       <General>
         <h1>Hi</h1>
       </General>
-      <Button handleClick={(e) => console.log("clicked", e, 111)} />
-      <TextInput value="" onChange={(e) => console.log(e)} />
+      <Container style={{ padding: "5px", color: "red" }} /> 
     </div>
   );
 }
